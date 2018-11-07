@@ -10,4 +10,10 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view >
+    <text bindtap="navigateTo">点击事件绑定  navigateTo</text>
+  </view>
+  <view >
+    <text bindtap="redirectTo">点击事件绑定  redirectTo</text>
+  </view>
 </view>
