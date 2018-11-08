@@ -1,0 +1,7 @@
+<!--pages/minicart/minicart.wxml-->
+<text>pages/minicart/minicart.wxml</text>
+ <view >
+    <text bindtap="toOrder">点击事件绑定</text>
+     <text bindtap="toOrder">点击事件绑定</text>
+      <text bindtap="toOrder">点击事件绑定</text>
+  </view>
