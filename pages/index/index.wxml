@@ -16,4 +16,11 @@
   <view >
     <text bindtap="redirectTo">点击事件绑定  redirectTo</text>
   </view>
+
+  <view >
+    <text bindtap="toModule">前往mudule</text>
+  </view>
+   <view >
+    <text bindtap="toDataBind">前往dataBind</text>
+  </view>
 </view>

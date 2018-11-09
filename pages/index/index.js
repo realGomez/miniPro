@@ -64,6 +64,16 @@ Page({
     })
     console.log(this.route);
     console.log("click to redirect");
+  },
+  toModule:function(){
+    wx.navigateTo({
+      url: '../module/module'
+    })
+  },
+  toDataBind: function () {
+    wx.navigateTo({
+      url: '../databind/databind'
+    })
   }
  
 })

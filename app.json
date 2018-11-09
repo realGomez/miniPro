@@ -6,7 +6,9 @@
     "pages/account/account",
     "pages/minicart/minicart",
     "pages/route/route",
-    "pages/navigator/navigator"
+    "pages/navigator/navigator",
+    "pages/module/module",
+    "pages/databind/databind"
   ],
   "window": {
     "backgroundTextStyle": "light",

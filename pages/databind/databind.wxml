@@ -1,0 +1,10 @@
+<!--pages/databind/databind.wxml-->
+<text>pages/databind/databind.wxml</text>
+<view>{{message}}</view>
+<view id="item-{{item}}">item-{{item}}</view>
+<view wx:if="{{condition}}">if data condition true</view>
+<checkbox checked="{{false}}"> </checkbox>
+<view hidden="{{flag ? true : false}}"> 三元运算 Hidden </view>
+<view>算术运算： {{a + b}} + {{c}} + d </view>
+
+<view wx:for="{{[zero, 1, 2, 3, 4]}}"> {{item}} </view>
