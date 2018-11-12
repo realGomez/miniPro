@@ -1,0 +1,10 @@
+<!--pages/template/template.wxml-->
+<text>pages/template/template.wxml</text>
+<import src="item.wxml"/>
+
+<view>
+   <template is="template-1" data="{{...item}}">
+       
+   </template>
+</view>
+
