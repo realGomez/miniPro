@@ -74,6 +74,21 @@ Page({
     wx.navigateTo({
       url: '../databind/databind'
     })
+  },
+  toList: function () {
+    wx.navigateTo({
+      url: '../list/list'
+    })
+  },
+  toCondition: function () {
+    wx.navigateTo({
+      url: '../condition/condition'
+    })
+  },
+  toTemplate: function () {
+    wx.navigateTo({
+      url: '../template/template'
+    })
   }
  
 })

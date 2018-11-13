@@ -1,11 +1,16 @@
-// pages/module/module.js
+// pages/template/template.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+     template:'from tempalte',
+     item: {
+       index: 0,
+       msg: 'this is a template',
+       time: '2016-09-15'
+     }
   },
 
   /**

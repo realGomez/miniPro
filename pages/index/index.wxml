@@ -23,4 +23,13 @@
    <view >
     <text bindtap="toDataBind">前往dataBind</text>
   </view>
+   <view >
+    <text bindtap="toList">前往列表渲染 list</text>
+  </view>
+  <view >
+    <text bindtap="toCondition">前往条件渲染 condition</text>
+  </view>
+   <view >
+    <text bindtap="toTemplate">前往模板</text>
+  </view>
 </view>

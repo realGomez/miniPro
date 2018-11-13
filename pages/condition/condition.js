@@ -1,11 +1,12 @@
-// pages/module/module.js
+// pages/condition/condition.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    condition:true,
+    length:4
   },
 
   /**
