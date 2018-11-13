@@ -7,4 +7,4 @@
 <view hidden="{{flag ? true : false}}"> 三元运算 Hidden </view>
 <view>算术运算： {{a + b}} + {{c}} + d </view>
 
-<view wx:for="{{[zero, 1, 2, 3, 4]}}"> {{item}} </view>
+<view wx:for="{{[zero, 1, 2, 3, 4]}}" wx:key="ky"> {{item}} </view>
