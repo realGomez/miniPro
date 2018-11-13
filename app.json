@@ -8,10 +8,7 @@
     "pages/route/route",
     "pages/navigator/navigator",
     "pages/module/module",
-    "pages/databind/databind",
-    "pages/list/list",
-    "pages/condition/condition",
-    "pages/template/template"
+    "pages/databind/databind"
   ],
   "window": {
     "backgroundTextStyle": "light",
