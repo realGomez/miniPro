@@ -1,0 +1,24 @@
+<!--pages/list/list.wxml-->
+<text>pages/list/list.wxml</text>
+
+<view wx:for="{{array}}">
+  {{index}}:{{item.message}}
+</view>
+gggggggg
+<view  wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}:{{itemName.message}}
+</view>
+
+block
+<block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block>
+
+<view>for-key</view>
+<switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;"> {{item.id}} </switch>
+<button bindtap="switch"> Switch </button>
+<button bindtap="addToFront"> Add to the front </button>
+
+<switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;"> {{item}} </switch>
+<button bindtap="addNumberToFront"> Add to the front </button>
