@@ -11,7 +11,9 @@
     "pages/databind/databind",
     "pages/list/list",
     "pages/condition/condition",
-    "pages/template/template"
+    "pages/template/template",
+    "pages/dom/dom",
+    "pages/component/component"
   ],
   "window": {
     "backgroundTextStyle": "light",

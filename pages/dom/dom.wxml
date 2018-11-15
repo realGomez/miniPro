@@ -1,0 +1,5 @@
+<!--pages/dom/dom.wxml-->
+<text>pages/dom/dom.wxml</text>
+<view class='target-class'>target-class</view>
+
+<view class='relative-class'>relative-class</view>

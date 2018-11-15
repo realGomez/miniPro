@@ -32,4 +32,10 @@
    <view >
     <text bindtap="toTemplate">前往模板</text>
   </view>
+   <view >
+    <text bindtap="toDom">前往界面节点信息</text>
+  </view>
+  <view >
+    <text bindtap="toComponent">自定义组件</text>
+  </view>
 </view>

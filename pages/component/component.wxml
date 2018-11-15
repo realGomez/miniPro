@@ -1,0 +1,12 @@
+<!--pages/component/component.wxml-->
+<text>pages/component/component.wxml</text>
+<view class="container log-list">
+  <!-- 以下是对一个自定义组件的引用 -->
+  <component-tag-name inner-text="Some text"></component-tag-name>
+</view>
+<view class="container log-list">
+  <!-- 以下是对一个自定义组件的引用 -->
+  <component-tag-name inner-text="Some text">
+    <view>这里是插入到组件slot中的内容</view>
+  </component-tag-name>
+</view>

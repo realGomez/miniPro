@@ -89,6 +89,15 @@ Page({
     wx.navigateTo({
       url: '../template/template'
     })
+  },
+  toDom: function () {
+    wx.navigateTo({
+      url: '../dom/dom'
+    })
+  },
+  toComponent: function () {
+    wx.navigateTo({
+      url: '../component/component'
+    })
   }
- 
 })
