@@ -1,0 +1,5 @@
+<!--pages/setdata/setdata.wxml-->
+<text>pages/setdata/setdata.wxml</text>
+<view>{{text}}</view>
+<view>{{num}}</view>
+<button bindtap='changeNum'>改变上面的数字</button>

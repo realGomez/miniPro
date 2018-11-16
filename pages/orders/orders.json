@@ -1,4 +1,8 @@
 {
-  "navigationBarTitleText":"Orders",
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "navigationBarTitleText":"订单",
   "enablePullDownRefresh":true
 }

@@ -2,8 +2,8 @@
 <text>pages/route/route.wxml</text>
 
 <view class="btn-area">
-  <navigator url="/pages/navigator/navigator?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>
-  <navigator url="../../pages/navigator/navigator?title=redirect" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
-  <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+  <navigator url="/pages/navigator/navigator?title=navigate" hover-class="navigator-hover">跳转到新页面 navigator 可返回当前页面</navigator>
+  <navigator url="../../pages/navigator/navigator?title=redirect" open-type="redirect" hover-class="other-navigator-hover">在当前页打开 navigator open-type="redirect" 不可返回 当前页面</navigator>
+  <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab 首页</navigator>
   <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">打开绑定的小程序</navigator>
 </view>

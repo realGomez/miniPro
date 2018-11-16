@@ -1,11 +1,16 @@
-// pages/module/module.js
+// pages/setdata/setdata.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+     text:'come from init data',
+     num:0,
+     array:[{key:'init data array'}],
+     object:{
+       key:'init data object'
+     }
   },
 
   /**
@@ -62,5 +67,12 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  changeNum:function(){
+    this.data.num = 100
+    this.setData({
+      num: this.data.num
+    })
   }
 })
